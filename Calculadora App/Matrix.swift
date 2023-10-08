@@ -5,8 +5,8 @@ struct Matrix {
     
     static let kbSection: [KButton] = [
         .init(title: "AC", txtColor: .black, bkgColor: turquoise, type: .reset),
-        .init(title: "+/-", txtColor: .black, bkgColor: turquoise, type: .reset),
-        .init(title: "%", txtColor: .black, bkgColor: turquoise, type: .reset),
+        .init(title: "", txtColor: .black, bkgColor: turquoise, type: .reset),
+        .init(title: "%", txtColor: .black, bkgColor: turquoise, type: .operation(.percent)),
         .init(title: "/", txtColor: .black, bkgColor: pink, type: .operation(.div)),
         .init(title: "7", txtColor: .white, bkgColor: lightGray, type: .number(7)),
         .init(title: "8", txtColor: .white, bkgColor: lightGray, type: .number(8)),

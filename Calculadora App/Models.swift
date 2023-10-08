@@ -21,4 +21,5 @@ enum OperationType: Hashable {
     case res
     case mul
     case div
+    case percent
 }
